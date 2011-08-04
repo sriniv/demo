@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Hello, Rails!</title>
+</head>
+<body>
+<h1>Hello from Rails!</h1>
+	<p>
+		Now it is <%= @time %>
+	</p>
+	<p>
+		file name is: 
+		<% for file in @files %>
+			<li>	<%= file %>
+			</li>
+		<% end %>
+	</p>
+	
+</body>
+</html>
+
